@@ -1,9 +1,11 @@
 # Gflow
 
 ## Installation
-
-1. Clone this repository
-
+1. Create Screen 
+```bash
+screen -S flow3_v2
+```
+1.1 Clone this repository
 ```bash
 git clone https://github.com/0xDee-Coder/Gflow.git
 cd Gflow
@@ -37,6 +39,10 @@ nano privateKeys.txt
 5. Run Bot
 ```bash
 node main
+```
+6. Run Auto Ref Bot (Optional)
+```
+node autoref
 ```
 ## Contributing
 
